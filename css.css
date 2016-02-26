@@ -1,0 +1,126 @@
+body{
+	margin:0;
+	font-family: 'Hind', sans-serif;
+	overflow: hidden;
+}
+.fill-page, .fill-page-color{
+	height:100vh;
+	transition:opacity 1s;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+.fill-page{
+	background-image:url("hey_cur.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+.fill-page-color{
+	width: 100%;
+	background-color: #4C239C;
+	position: absolute;
+	z-index: 101;
+	opacity: 0;
+}
+
+.center {
+    bottom: 0; left: 0; top: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+	width:100%;
+	text-align: center;
+	/*margin:0 auto;
+	//the left and right margins are increased until it becomes centered along
+	//the y-axix of the viewport
+	*/
+}
+.center-poop{
+	opacity: 0;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}
+.header-main{
+	text-transform: uppercase;
+	color:white;
+	opacity: 0;
+	transition:opacity 1s;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+	font-size:48px;
+}
+.intro-sub, .intro-sub-two, .intro-sub-three, .gosling, .intro-sub-bonus{
+	color:white;
+	opacity: 0;
+	transition:opacity 1s;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+	font-size:22px;
+}
+.intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+	padding-left:20%;
+	padding-right:20%;
+}
+.intro-sub-bonus{
+	bottom:0;
+	width:100vh;
+	min-height: 20px;
+	position: absolute;
+	z-index:200;
+	margin:0;
+	text-align: center;
+}
+.gosling{
+	background-image:url("gosling.jpg");
+	height:100vh;
+	width: 100%;
+	background-size:cover;
+	background-repeat: none;
+	position: absolute;
+}
+.instagram, .facebook, .twitter, .linkedin{
+	width:50%;
+	height:50%;
+	background-size:cover;
+	z-index: 100;
+	position: absolute;
+	display: none;
+	transition:opacity 1s;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+.instagram{
+	top:0;
+	background-image:url("insta.png");
+}
+.facebook{
+	top:0;
+	right:0;
+	background-image:url("fbook.png");
+}
+.twitter{
+	bottom:0;
+	background-image:url("twitter.png");
+}
+.linkedin{
+	bottom:0;
+	right:0;
+	background-image:url("linked.png");
+}
+
+.play-again{
+	border: 1px solid white;
+	position: absolute;
+	color:rgba(255, 0, 224, 0.62);
+	left: 0; top: 0; right: 0;
+	text-align: center;
+	margin:0 auto;
+	min-width:100px;
+	height:30px;
+	z-index: 1000;
+}
+.play-again:hover{
+	cursor: pointer;
+}
