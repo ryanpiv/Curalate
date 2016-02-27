@@ -18,6 +18,7 @@ function init(){
 	setTimeout(function(){
 		$(".intro-sub").css("opacity", "1");
 		$(".gosling").css("opacity", "1");
+		$(".gosling").css("display", "block");
 		$(".fill-page").css("opacity", "0.6");
 		setTimeout(function(){
 			$(".intro-sub-two").css("opacity", "1");
@@ -73,6 +74,7 @@ function trans(){
 						$(".linkedin").animate({ width: 'toggle' }, function(){
 							$(".twitter").animate({ width:'toggle' }, function(){
 								$(".fill-page-color").css("opacity", "0.8");
+								$(".fill-page-color").css("display", "block");
 								$(".intro-sub").css("opacity", "0");
 								setTimeout(function(){
 									pageCount++;
@@ -91,7 +93,7 @@ function trans(){
 			$(".intro-sub").html("i like these too but not for the reasons that most people like them");
 			$(".center").css("z-index", "102");
 			$(".intro-sub").css("opacity", "1");
-			$(".intro-sub-two").html("(personally i really, and i mean REALLY suck at using them compared to everyone else)");
+			$(".intro-sub-two").html("(personally i really, and i mean REALLY suck at using them)");
 			setTimeout(function(){
 				$(".intro-sub-two").css("opacity", "1");
 				$(".intro-sub-three").html("i make the type of facebook statuses you wish there was a downlike button for how bad it is");
@@ -185,8 +187,8 @@ function trans(){
 			}, 4000);
 			break;
 		case 7:
-			$(".intro-sub").html("anyway, enough about me. how's everyone doing?  good?  im glad.  glad for it, glad for you.  we all win.");
-			$(".intro-sub-two").html("hope you enjoyed my site.  i had a lot of fun making it");
+			$(".intro-sub").html("anyway, enough about me. how's everyone doing?  good?  thats glad.  good for you, good for me.  we all win.");
+			$(".intro-sub-two").html("this was a really small project, but i do love crafting [getting carried away with] these types of things.");
 			$(".intro-sub-three").html("pls dont look at the scripts :D");
 
 			$(".center-poop").animate({ opacity: 0 }, { duration: 1000 });
@@ -217,5 +219,49 @@ $(document).ready(function(){
 	$(".play-again").click(function() {
 		$(".play-again").animate({ opacity: 0 }, { duration: 1000 });
 		init();
+	});
+
+	var audio = $("#audio")[0];
+	$(".audio-file").click(function () {
+		$(".audio-file").removeClass("audio-file-active");
+		$(this).addClass("audio-file-active");
+
+		switch($(this).html()){
+			case "Jungle - Busy Earnin":
+				$("#audio").attr("src", "Jungle_-_Busy_Earnin.mp3");
+				break;
+			case "Jaymes Young - Habits of My Heart":
+				$("#audio").attr("src", "Jaymes_Young_-_Habits_of_My_Heart.mp3");
+				break;
+			case "Axel Thesleff - Bad Karma":
+				$("#audio").attr("src", "Axel_Thesleff_-_Bad_Karma.mp3");
+				break;
+		}
+
+		audio.play();
+		audio.volume = 0.6;
+		$(".audio-fill-color").animate({ opacity: 0}, {duration: 1000});
+		$(".audio-file").animate({ opacity: 0}, {duration: 1000});
+		setTimeout(function(){
+			$(".audio-fill-color").css("display", "none");
+			$(".audio-file").css("display", "none");
+			$(".audio-file-info").css("display", "none");
+		}, 1000);
+	});
+
+	$(".fa-volume-down").click(function(){
+		$(this).attr("style", "display: none !important");
+		audio.volume = 1;
+		$(".fa-volume-up").attr("style", "display: block !important");
+	});
+	$(".fa-volume-up").click(function(){
+		$(this).attr("style", "display: none !important");
+		audio.volume = 0;
+		$(".fa-volume-off").attr("style", "display: block !important");
+	});
+	$(".fa-volume-off").click(function(){
+		$(this).attr("style", "display: none !important");
+		audio.volume = 0.6;
+		$(".fa-volume-down").attr("style", "display: block !important");
 	});
 });
