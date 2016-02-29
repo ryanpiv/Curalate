@@ -7,7 +7,7 @@ function init(){
 	$(".header-main").html("hey Curalate");
 	$(".intro-sub").html("i heard you like unique intros");
 	$(".intro-sub-two").html("so i made this website -- (fyi, he took my name... ");
-	$(".intro-sub-three").html(" ... and my good looks)");
+	$(".intro-sub-three").html(" ...and my good looks)");
 
 	setTimeout(function(){
 		$(".fill-page").css("background-color", "black");
@@ -78,6 +78,11 @@ function trans(){
 			$(".intro-sub").html("ive noticed you guys really like these...");
 			$(".intro-sub").css("opacity", "1");
 			$(".fill-page-color").css("display", "block");
+			$(".fill-page-color").css("background-color", "#4C239C");
+			$(".instagram").css("opacity", "1");
+			$(".facebook").css("opacity", "1");
+			$(".twitter").css("opacity", "1");
+			$(".linkedin").css("opacity", "1");
 			setTimeout(function(){
 				$(".instagram").slideDown(function(){
 					$(".facebook").animate({ width:'toggle' }, function() {
@@ -111,14 +116,14 @@ function trans(){
 					setTimeout(function(){
 						pageCount++;
 						clearPage();
-						$(".instagram").css("opacity", "0");
-						$(".facebook").css("opacity", "0");
-						$(".twitter").css("opacity", "0");
-						$(".linkedin").css("opacity", "0");
+						$(".instagram").slideUp(function(){ });
+						$(".facebook").animate({ width:'toggle' }, function() { });
+						$(".linkedin").animate({ width: 'toggle' }, function(){ });
+						$(".twitter").animate({ width:'toggle' }, function(){ });
 						setTimeout(function(){
 							trans();
 						}, 1000);
-					}, 8000);
+					}, 6000);
 				}, 5000);
 			}, 4000);
 			break;
