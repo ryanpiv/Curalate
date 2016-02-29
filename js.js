@@ -62,7 +62,7 @@ function trans(){
 			$(".intro-sub").html("so hi  :)");
 			$(".intro-sub").css("opacity", "1");
 			setTimeout(function(){
-				$(".intro-sub-two").html("enough with this adult swim stuff though (it kinda just happened)");
+				$(".intro-sub-two").html("enough with this adult swim stuff (it kinda just happened)");
 				$(".intro-sub-two").css("opacity", "1");
 				$(".gosling").css("display", "none");
 				setTimeout(function(){
@@ -75,7 +75,7 @@ function trans(){
 			}, 2000);
 			break;
 		case 2:
-			$(".intro-sub").html("ive noticed you guys really like these...");
+			$(".intro-sub").html("ive noticed you guys like these...");
 			$(".intro-sub").css("opacity", "1");
 			$(".fill-page-color").css("display", "block");
 			$(".fill-page-color").css("background-color", "#4C239C");
@@ -107,7 +107,7 @@ function trans(){
 			$(".intro-sub").html("i like these too but not for the reasons that most people like them");
 			$(".center").css("z-index", "102");
 			$(".intro-sub").css("opacity", "1");
-			$(".intro-sub-two").html("(personally im really, and i mean im REALLY bad at using them)");
+			$(".intro-sub-two").html("(i know how they work inside and out, however im really, and i mean im REALLY bad at using them)");
 			setTimeout(function(){
 				$(".intro-sub-two").css("opacity", "1");
 				$(".intro-sub-three").html("i make the type of facebook statuses you wish there was a downlike button for how bad they are");
@@ -128,7 +128,7 @@ function trans(){
 			}, 4000);
 			break;
 		case 4:
-			$(".intro-sub").html("im not the best at social media 'pranks' either");
+			$(".intro-sub").html("social media trends perplex me");
 			$(".intro-sub").css("opacity", "1");
 			setTimeout(function(){
 				$(".intro-sub-two").html('i see this stuff come across my feed all the time... "KATIE WAS HERE #hacked"');
@@ -147,9 +147,9 @@ function trans(){
 			}, 4000);
 			break;
 		case 5:
-			$(".intro-sub").html("i tried posting to twitter a few times... everything sounded so much better in my head than it did in the tweet");
+			$(".intro-sub").html("used to lurk on twitter a lot.  my posts sounded so much better in my head");
 			$(".intro-sub-two").html("instagram is the only one ive been somewhat decent at");
-			$(".intro-sub-three").html("i get wayyyy too carried away with filters and food. theyve seriously stumbled on something magical here");
+			$(".intro-sub-three").html("i get wayyyy too carried away with filters and food. theyve seriously stumbled upon something magical here");
 			$(".intro-sub-bonus").html('"i thought it was chocolate pudding for the longest time..."');
 
 			$(".center-poop").css("opacity", "0");
@@ -159,7 +159,7 @@ function trans(){
 			$(".fill-page").css("opacity", "0");
 			$(".fill-page-color").css("opacity", "0");
 			setTimeout(function(){
-				$(".fill-page-color").css("background-color", "#3DC4DA");
+				$(".fill-page-color").css("background-color", "#3CAD4F");
 				$(".fill-page-color").css("opacity", ".8");
 
 				$(".intro-sub").css("opacity", "1");
@@ -183,7 +183,7 @@ function trans(){
 		case 6:
 			$(".intro-sub").html("but i do do (ha) fun things with these social networks");
 			$(".intro-sub-two").html("they're much nerdier than your standard selfie but thats fine considering im already terrible at their intended use");
-			$(".intro-sub-three").html("but that's pretty much why im excited to be making this website. i want to do more with my skills and interests");
+			$(".intro-sub-three").html("but that's pretty much why im excited to be making this website. sounds as if i could put my skills and interests to good use at Curalate");
 
 			$(".intro-sub").css("opacity", "1");
 			setTimeout(function(){

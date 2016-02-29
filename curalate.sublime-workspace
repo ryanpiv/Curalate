@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"au",
+				"audioMenu"
+			],
+			[
 				"intr",
 				"intro-sub-three"
 			],
@@ -223,23 +227,7 @@
 			"file": "css.css",
 			"settings":
 			{
-				"buffer_size": 3235,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js.js",
-			"settings":
-			{
-				"buffer_size": 8939,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1551,
+				"buffer_size": 4045,
 				"line_ending": "Windows"
 			}
 		}
@@ -301,13 +289,17 @@
 	],
 	"file_history":
 	[
+		"/C/wamp/www/Curalate/js.js",
+		"/C/wamp/www/Curalate/index.html",
+		"/C/wamp/www/VideoGameTitleScreens/index.html",
+		"/C/wamp/www/index.html",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/careers.css",
 		"/C/Users/ryanp/Documents/GitHub/welcome/css/StyleSheet1.css",
 		"/C/Users/ryanp/Documents/GitHub/welcome/index.html",
 		"/C/wamp/www/Curalate/index.php",
 		"/C/wamp/www/VideoGameTitleScreens/css/general.css",
 		"/C/wamp/www/Dashbach-Dentistry/settings.php",
 		"/C/wamp/www/Dashbach-Dentistry/custom.css",
-		"/C/wamp/www/VideoGameTitleScreens/index.html",
 		"/C/wamp/www/VideoGameTitleScreens/submit.php",
 		"/C/wamp/www/VideoGameTitleScreens/css/submit.css",
 		"/C/Users/ryanp/Downloads/untamed0-Untamed-Now-Playing-2116753/lib/proxy.js",
@@ -348,7 +340,6 @@
 		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/pace.js",
 		"/C/wamp/www/Dashbach-Dentistry/customCSS/meet_the_doctors.css",
 		"/C/wamp/www/Dashbach-Dentistry/customCSS/services.css",
-		"/C/wamp/www/Dashbach-Dentistry/customCSS/careers.css",
 		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/pace.min.js",
 		"/C/wamp/www/VideoGameTitleScreens/player.html",
 		"/C/wamp/www/VideoGameTitleScreens/js/general_js.js",
@@ -408,6 +399,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"real",
+			"rea",
+			"really",
+			"3CAD4F",
+			"3DC4DA",
+			"favicon",
+			"instagram",
+			"gosling",
+			"header",
+			"bonus",
+			"header",
+			"header-main",
 			"photo",
 			"gosling",
 			"color",
@@ -502,7 +505,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -511,85 +514,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3235,
+						"buffer_size": 4045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2578,
-								2578
+								2937,
+								2943
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sublime-CSS3-master/CSS3.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 2121.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8939,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6455,
-								6455
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4667.0,
+						"translation.x": -0.0,
+						"translation.y": 2577.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1551,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1551,
-								1551
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
