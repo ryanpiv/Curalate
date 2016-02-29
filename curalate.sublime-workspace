@@ -220,18 +220,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 921,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css.css",
 			"settings":
 			{
-				"buffer_size": 2449,
+				"buffer_size": 3235,
 				"line_ending": "Windows"
 			}
 		},
@@ -239,7 +231,15 @@
 			"file": "js.js",
 			"settings":
 			{
-				"buffer_size": 7390,
+				"buffer_size": 8939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1551,
 				"line_ending": "Windows"
 			}
 		}
@@ -301,6 +301,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/ryanp/Documents/GitHub/welcome/css/StyleSheet1.css",
+		"/C/Users/ryanp/Documents/GitHub/welcome/index.html",
+		"/C/wamp/www/Curalate/index.php",
 		"/C/wamp/www/VideoGameTitleScreens/css/general.css",
 		"/C/wamp/www/Dashbach-Dentistry/settings.php",
 		"/C/wamp/www/Dashbach-Dentistry/custom.css",
@@ -358,7 +361,6 @@
 		"/C/wamp/www/Dashbach-Dentistry/customCSS/our_staff.css",
 		"/C/wamp/www/Dashbach-Dentistry/nav.php",
 		"/C/wamp/www/Dashbach-Dentistry/services.php",
-		"/C/Users/ryanp/Documents/GitHub/welcome/index.html",
 		"/C/wamp/www/Dashbach-Dentistry/index.php",
 		"/C/wamp/www/Dashbach-Dentistry/bootstrap/js/bootstrap.js",
 		"/C/wamp/www/Dashbach-Dentistry/new_patient_forms.php",
@@ -372,7 +374,6 @@
 		"/C/wamp/www/Dashbach-Dentistry/customCSS/pgtest.css",
 		"/C/wamp/www/Dashbach-Dentistry/photo_gallery - bootstrap cols.php",
 		"/C/wamp/www/Dashbach-Dentistry/pg_test.php",
-		"/C/Users/ryanp/Documents/GitHub/welcome/css/StyleSheet1.css",
 		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/implicit_grant/app.js",
 		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/authorization_code/public/index.html",
 		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/implicit_grant/public/index.html",
@@ -407,6 +408,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"photo",
+			"gosling",
+			"color",
+			"#c",
 			"center",
 			"save_dir",
 			"username",
@@ -497,53 +502,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 921,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								782,
-								782
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "css.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2449,
+						"buffer_size": 3235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2407,
-								2407
+								2578,
+								2578
 							]
 						],
 						"settings":
@@ -551,27 +527,27 @@
 							"syntax": "Packages/Sublime-CSS3-master/CSS3.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2121.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "js.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7390,
+						"buffer_size": 8939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7000,
-								7000
+								6455,
+								6455
 							]
 						],
 						"settings":
@@ -581,10 +557,39 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3800.0,
+						"translation.y": 4667.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1551,
+								1551
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
