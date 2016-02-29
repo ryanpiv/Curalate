@@ -299,6 +299,7 @@ $(document).ready(function(){
 			$(".audio-file").css("display", "none");
 			$(".audio-file-info").css("display", "none");
 		}, 1000);
+		audioMenu = 0;
 	});
 
 	$(".fa-volume-down").click(function(){
