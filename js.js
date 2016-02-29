@@ -155,9 +155,10 @@ function trans(){
 			$(".center-poop").css("opacity", "0");
 			$(".center-poop").css("background-image", "url(poop_emoji.png)");
 			$(".center-poop").animate({ opacity: 1 }, { duration: 1000 });
-			
+
 			$(".fill-page").css("opacity", "0");
 			$(".fill-page-color").css("opacity", "0");
+
 			setTimeout(function(){
 				$(".fill-page-color").css("background-color", "#3CAD4F");
 				$(".fill-page-color").css("opacity", ".8");
@@ -292,6 +293,9 @@ $(document).ready(function(){
 				break;
 			case "The 1975 - Chocolate":
 				$("#audio").attr("src", "The_1975_-_Chocolate.mp3");
+				break;
+			case "Strange Talk feat. Bertie Blackman - Painted in Gold":
+				$("#audio").attr("src", "Strange_Talk_-_Painted_In_Gold_feat.mp3");
 				break;
 		}
 
