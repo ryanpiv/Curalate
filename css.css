@@ -63,13 +63,13 @@ body{
 	-webkit-transition: opacity 1s ease-in-out;
 	font-size:22px;
 }
-.intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+.intro-sub, .intro-sub-two, .intro-sub-three{
 	padding-left:20%;
 	padding-right:20%;
 }
 .intro-sub-bonus{
 	bottom:0;
-	width:100vh;
+	width:100%;
 	min-height: 20px;
 	position: absolute;
 	z-index:200;
@@ -116,7 +116,6 @@ body{
 }
 
 .play-again{
-	border-bottom: 1px solid white;
 	position: absolute;
 	color:rgba(255, 0, 224, 0.62);
 	left: 0; top: 0; right: 0;
@@ -134,13 +133,23 @@ body{
 	padding-left:5px;
 	position: absolute;
 	font-size:3em !important;
-	z-index:9999;
+	z-index:10003;
+	color: #E2FF00;
 }
 .fa-volume-off, .fa-volume-up{
 	display: none !important;
 }
 .fa:hover{
 	cursor: pointer;
+}
+.fa-bars{
+	position: absolute;
+	top:0;
+	right:0;
+	font-size:3em !important;
+	z-index: 10002;
+	padding-right:10px;
+	color: #FF7800;
 }
 .audio-fill-color{
 	width:100%;
@@ -171,4 +180,41 @@ body{
 .audio-file-active{
 	background-color:#fff;
 	color:orange;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.section-careers-main{
+		min-height:65%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.section-careers-main{
+		min-height:65%;
+	}
+}
+
+/* Small Devices, Tablets -sm*/
+@media only screen and (min-width : 768px) {
+	.section-careers-main{
+		min-height:50%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.section-careers-main{
+		min-height:35%;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.section-careers-main{
+		min-height:35%;
+	}
 }
