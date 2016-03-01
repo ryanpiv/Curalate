@@ -202,6 +202,9 @@ body{
 	.gosling{
 		background-image:url("gosling_2.jpg");
 	}
+	.fa-bars, .fa-volume-down, .fa-volume-up, .fa-volume-off{
+		font-size: 7em !important;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -222,6 +225,9 @@ body{
 	}
 	.gosling{
 		background-image:url("gosling_2.jpg");
+	}
+	.fa-bars, .fa-volume-down, .fa-volume-up, .fa-volume-off{
+		font-size: 7em !important;
 	}
 }
 
