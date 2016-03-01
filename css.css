@@ -245,6 +245,12 @@ body{
 	.header-main{
 		font-size:4em;
 	}
+	.gosling{
+		background-image:url("gosling.jpg");
+	}
+	.fa-bars, .fa-volume-down, .fa-volume-up, .fa-volume-off{
+		font-size: 5em !important;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -261,6 +267,12 @@ body{
 	.header-main{
 		font-size:5em;
 	}
+	.gosling{
+		background-image:url("gosling.jpg");
+	}
+	.fa-bars, .fa-volume-down, .fa-volume-up, .fa-volume-off{
+		font-size: 5em !important;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -276,5 +288,11 @@ body{
 	}
 	.header-main{
 		font-size:5em;
+	}
+	.gosling{
+		background-image:url("gosling.jpg");
+	}
+	.fa-bars, .fa-volume-down, .fa-volume-up, .fa-volume-off{
+		font-size: 5em !important;
 	}
 }
