@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fa-vo",
+				"fa-volume-down"
+			],
+			[
+				"fa-vol",
+				"fa-volume-off"
+			],
+			[
+				"int",
+				"intro-sub-bonus"
+			],
+			[
+				"intro",
+				"intro-sub-three"
+			],
+			[
 				"au",
 				"audioMenu"
 			],
@@ -227,7 +243,23 @@
 			"file": "css.css",
 			"settings":
 			{
-				"buffer_size": 4045,
+				"buffer_size": 4776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js.js",
+			"settings":
+			{
+				"buffer_size": 11319,
 				"line_ending": "Windows"
 			}
 		}
@@ -399,6 +431,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"play-again",
+			"#3",
+			"#",
+			"#3",
+			"#c",
 			"real",
 			"rea",
 			"really",
@@ -505,7 +542,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -514,23 +551,82 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4045,
+						"buffer_size": 4776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2937,
-								2943
+								2400,
+								2400
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sublime-CSS3-master/CSS3.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 2577.0,
+						"translation.x": 0.0,
+						"translation.y": 1817.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10263,
+								10263
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5158.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

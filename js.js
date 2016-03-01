@@ -294,8 +294,14 @@ $(document).ready(function(){
 			case "The 1975 - Chocolate":
 				$("#audio").attr("src", "The_1975_-_Chocolate.mp3");
 				break;
-			case "Strange Talk feat. Bertie Blackman - Painted in Gold":
+			case "Strange Talk - Painted in Gold":
 				$("#audio").attr("src", "Strange_Talk_-_Painted_In_Gold_feat.mp3");
+				break;
+			case "Virginia to Vegas - Don't Fight the Music":
+				$("#audio").attr("src", "Virginia_To_Vegas_-_Dont_Fight_The_Music.mp3");
+				break;
+			case "Peking Duk - Say My Name":
+				$("#audio").attr("src", "Peking_Duk_-_Say_My_Name_feat.mp3");
 				break;
 		}
 

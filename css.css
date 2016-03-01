@@ -53,7 +53,6 @@ body{
 	transition:opacity 1s;
 	-moz-transition: opacity 1s ease-in-out;
 	-webkit-transition: opacity 1s ease-in-out;
-	font-size:48px;
 }
 .intro-sub, .intro-sub-two, .intro-sub-three, .gosling, .intro-sub-bonus{
 	color:white;
@@ -122,7 +121,7 @@ body{
 	text-align: center;
 	margin:0 auto;
 	min-width:100px;
-	height:30px;
+	height:3em;
 	z-index: 1000;
 }
 .play-again:hover{
@@ -132,7 +131,7 @@ body{
 	bottom:0; left:0;
 	padding-left:5px;
 	position: absolute;
-	font-size:3em !important;
+	font-size:5em !important;
 	z-index:10003;
 	color: #E2FF00;
 }
@@ -146,7 +145,7 @@ body{
 	position: absolute;
 	top:0;
 	right:0;
-	font-size:3em !important;
+	font-size:5em !important;
 	z-index: 10002;
 	padding-right:10px;
 	color: #E2FF00;
@@ -187,14 +186,30 @@ body{
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
 	.audio-file, .audio-file-info{
+		font-size:3em;
+	}
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
 		font-size:2em;
+		padding-left: 10%;
+		padding-right:10%;
+	}
+	.header-main{
+		font-size:3em;
 	}
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	.audio-file, .audio-file-info{
+		font-size:3em;
+	}
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
 		font-size:2em;
+		padding-left: 10%;
+		padding-right:10%;
+	}
+	.header-main{
+		font-size:3em;
 	}
 }
 
@@ -203,6 +218,12 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:3em;
 	}
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+		font-size:3em;
+	}
+	.header-main{
+		font-size:4em;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -210,11 +231,23 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:4em;
 	}
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+		font-size:3em;
+	}
+	.header-main{
+		font-size:5em;
+	}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 	.audio-file, .audio-file-info{
+		font-size:5em;
+	}
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+		font-size:5em;
+	}
+	.header-main{
 		font-size:5em;
 	}
 }
