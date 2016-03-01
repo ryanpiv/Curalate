@@ -32,7 +32,7 @@ body{
     margin: auto;
     position: absolute;
     width: 400px;
-    height: 400px;
+    height:50%;
 	width:100%;
 	text-align: center;
 	/*margin:0 auto;
@@ -188,13 +188,19 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:3em;
 	}
-	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three{
 		font-size:2em;
 		padding-left: 10%;
 		padding-right:10%;
 	}
+	.intro-sub-bonus{
+		font-size: 2em;
+	}
 	.header-main{
 		font-size:3em;
+	}
+	.gosling{
+		background-image:url("gosling_2.jpg");
 	}
 }
 
@@ -203,13 +209,19 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:3em;
 	}
-	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three{
 		font-size:2em;
 		padding-left: 10%;
 		padding-right:10%;
 	}
+	.intro-sub-bonus{
+		font-size: 2em;
+	}
 	.header-main{
 		font-size:3em;
+	}
+	.gosling{
+		background-image:url("gosling_2.jpg");
 	}
 }
 
@@ -218,8 +230,11 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:3em;
 	}
-	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three{
 		font-size:3em;
+	}
+	.intro-sub-bonus{
+		font-size: 2.5em;
 	}
 	.header-main{
 		font-size:4em;
@@ -231,8 +246,11 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:4em;
 	}
-	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three{
 		font-size:3em;
+	}
+	.intro-sub-bonus{
+		font-size: 3em;
 	}
 	.header-main{
 		font-size:5em;
@@ -244,8 +262,11 @@ body{
 	.audio-file, .audio-file-info{
 		font-size:5em;
 	}
-	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three, .intro-sub-bonus{
-		font-size:5em;
+	.play-again, .intro-sub, .intro-sub-two, .intro-sub-three{
+		font-size:3em;
+	}
+	.intro-sub-bonus{
+		font-size: 3em;
 	}
 	.header-main{
 		font-size:5em;
