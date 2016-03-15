@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
-				"fa-vo",
+				"fa-",
 				"fa-volume-down"
+			],
+			[
+				"fa-vo",
+				"fa-volume-up"
+			],
+			[
+				"intr",
+				"intro-sub-bonus"
 			],
 			[
 				"fa-vol",
@@ -22,10 +30,6 @@
 			[
 				"au",
 				"audioMenu"
-			],
-			[
-				"intr",
-				"intro-sub-three"
 			],
 			[
 				"backgro",
@@ -240,26 +244,10 @@
 	"buffers":
 	[
 		{
-			"file": "css.css",
+			"file": "/C/wamp/www/VideoGameTitleScreens/screens.json",
 			"settings":
 			{
-				"buffer_size": 4776,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1628,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js.js",
-			"settings":
-			{
-				"buffer_size": 11319,
+				"buffer_size": 13168,
 				"line_ending": "Windows"
 			}
 		}
@@ -323,6 +311,7 @@
 	[
 		"/C/wamp/www/Curalate/js.js",
 		"/C/wamp/www/Curalate/index.html",
+		"/C/wamp/www/Curalate/css.css",
 		"/C/wamp/www/VideoGameTitleScreens/index.html",
 		"/C/wamp/www/index.html",
 		"/C/wamp/www/Dashbach-Dentistry/customCSS/careers.css",
@@ -431,6 +420,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gosling",
+			"bonus",
+			"gosling",
 			"play-again",
 			"#3",
 			"#",
@@ -542,91 +534,32 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css.css",
+					"file": "/C/wamp/www/VideoGameTitleScreens/screens.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4776,
+						"buffer_size": 13168,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2400,
-								2400
+								11718,
+								11723
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sublime-CSS3-master/CSS3.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1817.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1628,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								627,
-								627
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11319,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10263,
-								10263
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5158.0,
+						"translation.y": 5134.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
